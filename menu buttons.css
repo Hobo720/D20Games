@@ -4,11 +4,26 @@ body { background-color: #050e1d;
   justify-content: center;
   align-items: flex-start;
   min-height: 100vh;
-  background: black;
-  background: url('img.png') no-repeat;
+  background: rgb(35, 51, 78);
   background-size: cover;
   background-position: center;
 }
+/* User Login Button Page */
+.user-button {
+  display: block;
+    width: 10%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background:
+      linear-gradient(#101927, #101927) padding-box, /* Inner solid color */
+      linear-gradient(to right, rgba(180, 180, 180, 0.2), rgba(180, 180, 180, 0.2)) border-box; /* Outer gradient */
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 42px;
+    cursor: pointer;}
 
 /* D20 Games Title Menu Button */
 .d20games-button {
